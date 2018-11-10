@@ -2708,3 +2708,25 @@ footer .copyright span:last-child::after {
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
 }
+
+.colorRes{
+	width: 70%;
+	margin-left: 15%;
+	font-weight: bolder;
+	color: black;
+}
+
+.eachColor span{
+	height: 30px;
+	display: inline-block;
+	float: left;
+}
+
+.eachColor{
+	margin-bottom: 5px;
+}
+
+.resImage{
+	margin: 25%;
+	margin-top: 10px;
+}
