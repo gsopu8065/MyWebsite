@@ -757,7 +757,7 @@
 					$scope.resImagePath = url;
                     $http({
                         method : "POST",
-                        url : "http://52.14.151.179:5000/getColors",
+                        url : "https://dominantcolor-1644521226.us-east-2.elb.amazonaws.com/getColors",
                         data: dataURItoBlob(url)
                     }).then(function mySuccess(response) {
                         var res = response.data && response.data.result || [];
